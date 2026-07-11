@@ -22,6 +22,7 @@
 
 ```powershell
 git clone https://github.com/cybersagnik/writify
+cd writify
 ```
 
 **2. Bypass Execution Policy & Install globally as a command**
