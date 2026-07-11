@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo_writiy.png" width="270">
+  <img src="assets/logo_writify.png" width="270">
 </p>
 
 # Writify
@@ -11,9 +11,6 @@
 [![License](https://img.shields.io/badge/license-MIT-blue)](#license)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)](https://github.com/cybersagnik/writify)
 
-```powershell
-irm https://raw.githubusercontent.com/cybersagnik/writify/main/writify.ps1 | iex
-```
 
 → [Quick Start](#quick-start) · [Features](#features)
 
