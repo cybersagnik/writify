@@ -1,19 +1,16 @@
 <p align="center">
-  <img src="assets/logo_writify.png" width="180">
+  <img src="assets/logo_writify.png" width="250">
 </p>
 
 # Writify
 
-**Shell-native CTF writeup capture for Windows.**
+**Writify is a single PowerShell script that runs a background screenshot daemon, records timestamped notes and attached files into a structured solve log, and compiles everything into a clean GitHub-ready markdown writeup at the end. No Python. No Node. No web app. PowerShell 5.1 and Git are the only requirements.**
 
 [![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)](https://github.com/cybersagnik/writify/releases)
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue)](https://docs.microsoft.com/en-us/powershell/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](#license)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)](https://github.com/cybersagnik/writify)
 
-```powershell
-irm https://raw.githubusercontent.com/cybersagnik/writify/main/writify.ps1 | iex
-```
 
 → [Quick Start](#quick-start) · [Features](#features)
 
@@ -24,12 +21,13 @@ irm https://raw.githubusercontent.com/cybersagnik/writify/main/writify.ps1 | iex
 **1. Download**
 
 ```powershell
-Invoke-WebRequest https://raw.githubusercontent.com/cybersagnik/writify/main/writify.ps1 -OutFile writify.ps1
+git clone https://github.com/cybersagnik/writify
 ```
 
-**2. Install globally**
+**2. Bypass Execution Policy & Install globally as a command**
 
 ```powershell
+Set-Execution Set-ExecutionPolicy -Scope Process Bypass
 .\writify.ps1 init
 ```
 
