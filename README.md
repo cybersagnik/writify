@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="180">
+  <img src="assets/logo_writify.png" width="180">
 </p>
 
 # Writify
