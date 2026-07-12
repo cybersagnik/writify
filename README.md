@@ -28,7 +28,7 @@ cd writify
 **2. Bypass Execution Policy & Install globally as a command**
 
 ```powershell
-Set-Execution Set-ExecutionPolicy -Scope Process Bypass
+Set-ExecutionPolicy -Scope Process Bypass
 .\writify.ps1 init
 ```
 
